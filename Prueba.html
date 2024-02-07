@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¿Quieres ser mi valentine?</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/930/870/non_2x/baby-seamless-pattern-pink-floral-background-hand-drawn-cartoon-style-used-for-prints-wallpapers-decorations-clothing-designs-textiles-illustrations-free-vector.jpg'); /* Imagen de fondo con flores */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco semitransparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .osito {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #ff4f4f;
+  }
+
+  .message {
+    color: #ff6b6b; /* Color rosa */
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <img class="osito" src="https://i.pinimg.com/originals/ca/ae/f3/caaef358bdb01f09d6b21e9661dff2e6.gif" alt="Osito animado">
+  <h2>¡Eres Especial para Mí!</h2>
+  <p class="message">Querida Valeria,</p>
+  <p class="message">Hoy quiero tomar un momento para decirte cuánto significas para mí.</p>
+  <p class="message">Tu presencia ilumina mi vida y tus sonrisas son mi mayor alegría.</p>
+  <p class="message">Eres mi apoyo, mi compañera y mi amor eterno.</p>
+  <p class="message">¿Quieres ser mi Valentine?</p>
+  <button class="btn" onclick="mostrarMensaje()">¡Sí, quiero ser tu Valentine!</button>
+</div>
+
+<script>
+  function mostrarMensaje() {
+    alert('¡Gracias por aceptar! TE AMO❤️');
+  }
+</script>
+
+</body>
+</html>
